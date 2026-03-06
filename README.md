@@ -6,7 +6,7 @@ A real-time yoga pose detection system using Computer Vision and Machine Learnin
 This system helps users perform yoga poses correctly by detecting their pose in real time and telling them exactly which joints need adjustment and by how many degrees.
 
 ## Workflow
-Input (Live Webcam) → MediaPipe Keypoint Extraction → Joint Angle Calculation → XGBoost Classification → Live Feedback on Screen
+Input (Live Webcam) - MediaPipe Keypoint Extraction - Joint Angle Calculation - XGBoost Classification - Live Feedback on Screen
 
 ## Poses Detected
 - Downdog
@@ -44,10 +44,10 @@ Kaggle Yoga Poses Dataset — 979 images across 5 pose classes
 - 97.96% classification accuracy
 
 ## Project Structure
-- Yoga_Client.ipynb — main notebook with all code
-- yoga_features.csv — extracted features from dataset
-- xgb_model.pkl — trained XGBoost model
-- label_encoder.pkl — pose label encoder
-- confusion_matrix.png — model evaluation results
-- requirements.txt — required libraries
-- setup_instructions.md — how to run the project
+- Yoga_Client.ipynb - main notebook with all code
+- yoga_features.csv - extracted features from dataset
+- xgb_model.pkl -  trained XGBoost model
+- label_encoder.pkl - pose label encoder
+- confusion_matrix.png -  model evaluation results
+- requirements.txt - required libraries
+- setup_instructions.md - how to run the project
